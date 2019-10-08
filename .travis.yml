@@ -41,6 +41,7 @@ before_script:
   - export PATH=$PATH:~/.cargo/bin
 
 script:
+  - cd json && cargo check
   - cargo check --all
   - cargo test --all --no-fail-fast
   - |
