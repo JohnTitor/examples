@@ -10,8 +10,8 @@ name = "multipart"
 path = "src/main.rs"
 
 [dependencies]
-actix-web = "1.0.0"
-actix-multipart = "0.1.1"
+actix-web = "2.0.0-alpha.1"
+actix-multipart = "0.2.0-alpha.1"
 
 env_logger = "0.6"
-futures = "0.1.25"
+futures = "0.3.1"
