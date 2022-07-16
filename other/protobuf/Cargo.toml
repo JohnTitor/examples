@@ -6,7 +6,7 @@ edition = "2018"
 
 [dependencies]
 bytes = "0.5.4"
-env_logger = "0.7.1"
+env_logger = "0.9"
 prost = "0.6.1"
 prost-derive = "0.6.1"
 
